@@ -1,0 +1,6 @@
+.bottom_border
+{
+    background-color: var(--clr-stone-150);
+    border: none;
+    height: 2px;
+}

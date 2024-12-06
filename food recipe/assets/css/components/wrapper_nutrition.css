@@ -1,0 +1,21 @@
+.wrapper_nutrition
+{
+    padding-block-end: 20px;
+
+    & .table_contents
+    {
+        display: flex;
+        justify-content: space-between;
+        margin-block-end: 10px;
+    }
+
+    & .wrapper_nutrition_table
+    {
+        margin-block: 20px;
+    }
+
+    & hr
+    {
+        margin-block: 10px;
+    }
+}

@@ -1,0 +1,59 @@
+/* young-serif-regular - latin */
+@font-face
+{
+    /* font-display: swap; */
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Young Serif';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/assets/fonts/young-serif-v2-latin-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* outfit-regular - latin */
+@font-face
+{
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/assets/fonts/outfit-v11-latin-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* outfit-600 - latin */
+@font-face
+{
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    src: url('/assets/fonts/outfit-v11-latin-600.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* outfit-700 - latin */
+@font-face
+{
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    src: url('/assets/fonts/outfit-v11-latin-700.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+:root
+{
+    /* 16px - 20px */
+    --fs-body: clamp(1rem, 0.5555555555555556rem + 2.2222222222222223vw, 1.25rem);
+
+    /* 20px - 30px */
+    /* --fs-headings: clamp(1.25rem, 0.13888888888888884rem + 5.555555555555556vw, 1.875rem); */
+
+    /* 24px - 30px */
+    --fs-headings: clamp(1.5rem, 0.8333333333333334rem + 3.3333333333333335vw, 1.875rem);
+}
